@@ -125,6 +125,13 @@ func (c *Events) buildClientOptions(args[] string) (Inputs) {
 	fc := flags.New()
 	fc.NewBoolFlag("json", "js", "list output in json format (default is csv)")
 
+	//err := fc.Parse(args[1:]...)
+	//
+	//if err != nil {
+	//	fmt.Println("\n Receive error reading arguments ... ", err)
+	//	Usage(1)
+	//}
+
 	var ins Inputs
 	ins.isCsv = true
 	ins.isJson = false
