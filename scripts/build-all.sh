@@ -69,7 +69,7 @@ if [[ "$1" = "release" ]] ; then
 
 	${github_release} release \
     --tag $TAG \
-    --name "Cloud Foundry get events plugin $TAG" \
+    --name "Cloud Foundry Inspect plugin $TAG" \
     --description "$TAG release"
 #    --description "$TAG release - work in progress"
 
@@ -89,7 +89,7 @@ if [[ "$1" = "release" ]] ; then
     --file bin/win64/inspect-plugin.exe
 
 	#git commit -am "Build version $TAG"
-	#git tag -a $TAG -m "Get Events Plugin v$TAG"
+	#git tag -a $TAG -m "Cloud Foundry Inspect Plugin v$TAG"
 	#echo "Tagged release, 'git push --follow-tags' to push it to github, upload the binaries to github"
 	echo "copy the output above to the cli repo you plan to deploy in"
 fi
