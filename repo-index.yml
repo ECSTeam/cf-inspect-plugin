@@ -1,0 +1,21 @@
+- name: inspect
+  description: Get apps list
+  version: __TAG__
+  created: 2016-12-28T14:00:00Z
+  updated: __TODAY__
+  company: CGI
+  authors:
+  - name: Ajay Koranne of CGI
+    homepage: https://github.com/akoranne
+    contact: akoranne@ecsteam.com
+  homepage: https://github.com/ECSTeam/cf-inspect-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/ECSTeam/cf-inspect-plugin/releases/download/__TAG__/inspect-plugin-darwin
+    checksum: __osx-sha1__
+  - platform: win64
+    url: https://github.com/ECSTeam/cf-inspect-plugin/releases/download/__TAG__/inspect-plugin.exe
+    checksum: __win64-sha1__
+  - platform: linux64
+    url: https://github.com/ECSTeam/cf-inspect-plugin/releases/download/__TAG__/inspect-plugin-linux
+    checksum: __linux64-sha1__
