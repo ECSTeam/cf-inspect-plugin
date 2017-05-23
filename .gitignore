@@ -85,3 +85,6 @@ Desktop.ini
 *.*~
 *~
 .merge_file*
+.idea/
+bin/
+inspect-plugin-*
