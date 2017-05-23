@@ -11,7 +11,7 @@
 #
 set -e
 export GITHUB_USER=ecsteam
-export GITHUB_REPO=cf-inspect
+export GITHUB_REPO=cf-inspect-plugin
 
 if [[ "$1" = "release" ]] ; then
 	TAG="$2"
